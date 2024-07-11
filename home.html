@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>home</title>
+    <!-- add when using static-->
+    {% load static %}
+</head>
+<body>
+<h1>Homepage</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad amet beatae facere harum illo impedit in inventore, laborum nemo 
+    nulla officiis omnis perferendis provident similique sunt suscipit ullam vel voluptatibus!</p>
+<img src="{% static 'resources/image1.jpg' %}" alt=""> <!--anytime you mention static use the special brackets and %-->
+<img src="{% static 'resources/image2.jpg' %}" alt="">
+
+</body>
+</html>
